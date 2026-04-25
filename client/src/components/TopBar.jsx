@@ -37,7 +37,14 @@ export default function TopBar({
 
   return (
     <header className="workspace-topbar">
-      <div className="workspace-topbar-left"></div>
+      <div className="workspace-topbar-left">
+          <nav className="main-nav">
+            <a href="/" className="nav-link">H</a>
+            <a href="/members" className="nav-link">M</a>
+            <a href="/statuses" className="nav-link">S</a>
+            <a href="/messages" className="nav-link">C</a>
+          </nav>
+        </div>
       <div className="workspace-actions">
         <label className="workspace-search">
           <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true">
