@@ -38,12 +38,12 @@ export default function TopBar({
   return (
     <header className="workspace-topbar">
       <div className="workspace-topbar-left">
-          <nav className="main-nav">
+          {/* <nav className="main-nav">
             <a href="/" className="nav-link">H</a>
             <a href="/members" className="nav-link">M</a>
             <a href="/statuses" className="nav-link">S</a>
             <a href="/messages" className="nav-link">C</a>
-          </nav>
+          </nav> */}
         </div>
       <div className="workspace-actions">
         <label className="workspace-search">
